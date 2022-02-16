@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int a=1;
+	int n, c=0,d=0;
+	cout<<"ingrese el numero N "<<endl;
+	cin>>n;
+	while(a<=n)
+	{
+		if(a%2==0)
+		{
+			c=c+a;
+			cout<<a<<" el numero es par "<<endl;
+		}
+		else{
+			d=d+a;
+			cout<<a<<" el numero es impar "<<endl;
+		}
+		a++;
+			}
+	cout<<" la suma de los numeros  pares es "<<c<<endl;
+	cout<<" la suma de los numeros impares es "<<d<<endl;
+	cout<<" la suma de los numeros pares e impares es "<<c+d<<endl;
+	
+	return 0;	
+}
